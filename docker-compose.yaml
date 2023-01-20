@@ -12,3 +12,4 @@ services:
       - 3016:8080
     deploy:
       replicas: 2
+      
