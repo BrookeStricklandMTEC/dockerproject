@@ -1,0 +1,14 @@
+version: "3.8"
+services: 
+  mywebsite1:
+    image: project:latest
+    ports:
+      - 3015:8080
+    deploy:
+      replicas: 3
+  mywebsite2:
+    image: project:latest
+    ports:
+      - 3016:8080
+    deploy:
+      replicas: 2
